@@ -1,0 +1,343 @@
+*
+{
+    /* font-family: 'Croissant One', cursive; */
+    margin:0;
+    padding:0;
+}
+body
+{
+    color: white ;
+    background-color: black;
+    background-image: url(https://wallpaperteg.com/wp-content/uploads/2021/07/LB-Performance-Ferrari-Italia-Wallpaper.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    /* letter-spacing: 2px; */
+
+}
+
+.logo
+{
+    color: goldenrod;
+    cursor: pointer;
+    margin-left: 80px;
+    font-size: 28px;
+    
+    
+}
+
+.div-container
+{
+    background-color:black;
+    opacity: 0.7;
+    width: 100%;
+}
+
+.container
+{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.container2
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    padding-top: 15px;
+}
+
+.container-p
+{
+    font-size:24px;
+}
+
+.container-p:hover
+{
+    color:goldenrod;
+    cursor: pointer;
+    text-decoration:underline;
+    font-size: 25px;
+    rotate: -0.2deg;
+
+}
+.logo:hover
+{
+    text-decoration: underline;
+}
+
+.hero-blur
+{
+    width: 590px;
+    height: 160px;
+    background-color: grey;
+    border-radius: 20px;
+    opacity: 0.6;
+    filter: blur(26px);
+    position: absolute;
+    top: 240px;
+    margin-left: 35px;
+}
+
+.hero-text
+{
+    position: absolute;
+    top: 260px;
+    margin-left: 44px;
+    color: goldenrod;
+    background-color: transparent;
+    font-size: 40px;
+    font-weight: 600;
+    -webkit-text-stroke-width: 1.5px;
+     -webkit-text-stroke-color:black;
+}
+
+.hero-text:hover{
+    rotate: -10deg;
+    cursor: pointer;
+}
+
+.hero-text2
+{
+    position: absolute;
+    top:650px;
+    margin-left: 260px;
+    /* color: goldenrod; */
+    background-color: black;
+    /* border: 2px solid red; */
+}
+
+.hero-text3
+{
+    position: absolute;
+    /* border: 2px solid red; */
+    top:750px;
+    margin-left: 310px;
+    /* color: goldenrod; */
+    background-color: black;
+}
+
+.h2
+{
+    font-size: 32px;
+    letter-spacing: 2px;
+    padding-top: 120px;
+}
+
+.h6
+{
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+
+.container-card
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card
+{
+    margin-top: 100px;
+    padding: 20px;
+    margin-left:  20px ;
+    margin-right: 20px ;
+    height: 300px;
+    width: 350px;
+    color: white;
+    background: transparent;
+
+}
+
+.container-icon
+{
+    background-color: goldenrod;
+    color: white !important;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
+
+}
+
+.p11
+{
+    margin-top: 20px;
+}
+
+.p22
+{
+    color: darkgray;
+}
+
+.btn2
+{
+    margin-top: 25px;
+    color: goldenrod;
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    padding: 10px 30px;
+    font-size: 19px;
+    border-radius: 100px;
+    
+}
+
+.btn2:hover
+{
+    background-color: goldenrod;
+    color: white;
+}
+
+.cards-container
+{
+
+    display: flex;
+    justify-content: center;
+}
+
+.cards
+{
+    width: 580px;
+    margin: 15px;
+    letter-spacing: 2px;
+    padding: 30px;
+}
+
+.cards2
+{
+    background-color: goldenrod;
+    padding-top: 100px;
+}
+
+.img-container
+{
+    display: flex;
+    justify-content: center;
+}
+.img-sep
+{
+    margin-top: 50px;
+    width: 390px;
+    height:230px;
+    margin: 8px;
+}
+
+.insurance
+{
+    font-size: 50px;
+    font-weight:bolder;
+    margin-left: 190px;
+}
+
+.insurance2
+{
+    font-size: 45px;
+    font-weight: 500;
+    
+}
+.right
+{
+    margin-left: 920px;
+    margin-top: 90px;
+    font-size: 40px;
+}
+
+.section
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.part
+{
+    width: 500px;
+    height: auto;
+    
+
+
+}
+
+.part2
+{
+
+}
+
+.part2 img
+{
+    width: 450px;
+    height:430px;
+    margin-left:93px;
+}
+
+.spann
+{
+    background-color: goldenrod;
+    padding: 20px;
+}
+
+.black-container img
+{
+    width: 780px;
+    height: 340px;
+}
+
+.black-container2
+{
+    width: 450px;
+    justify-content: center;
+    text-align: right;
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.contact
+{
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
+}
+
+.carddd
+{
+    width: 500px;
+    display: column;
+
+}
+
+.carddd input
+{
+    margin-top: 40px;
+    margin-left: 80px;
+    padding: 12px;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+}
+
+.carddd input[type=text] {
+    background-color: black;
+
+    color: white;
+  }
+
+.carddd input[type=email]
+{
+    background-color: black;
+    color: white;
+}
+
+
+input::placeholder
+  {
+    color: white;
+  }
+
+  ::-ms-input-placeholder {
+    color: white;
+}
